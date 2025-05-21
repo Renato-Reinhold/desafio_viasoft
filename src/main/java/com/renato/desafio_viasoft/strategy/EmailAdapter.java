@@ -1,4 +1,7 @@
 package com.renato.desafio_viasoft.strategy;
 
-public class EmailAdapter {
+import com.renato.desafio_viasoft.dto.EmailRequestDTO;
+
+public interface EmailAdapter {
+    String adapt(EmailRequestDTO request);
 }
